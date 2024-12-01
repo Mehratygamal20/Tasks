@@ -1,0 +1,76 @@
+
+.container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+ 
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: stretch;
+    height: auto; 
+  }
+  
+
+  .col-md-6 {
+    flex: 1; 
+    padding: 1rem;
+    box-sizing: border-box;
+    min-width: 300px; 
+  }
+  
+
+  .all-steps-img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px; 
+  }
+  
+
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+  .service-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .service-icon {
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .service-text {
+    flex: 1;
+  }
+  
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .col-md-6 {
+      width: 100%; 
+      padding: 1rem 0; 
+    }
+  
+    .all-steps-img {
+      height: auto; 
+      margin-top: 20px;
+    }
+  }
+  
