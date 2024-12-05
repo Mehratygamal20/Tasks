@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  
+}
+
+ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
